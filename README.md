@@ -61,7 +61,9 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 * php composer update  
   
 沒意外的話完成後就可以在瀏覽器上打上一開始得到的ip加上:8080/public就會連到laravel預設的首頁，上面應該是會有錯誤的首先解決的第一個錯誤是evn.example  將他改為.evn之後再下指令更改APP_KEY，完成就可以看到laravel的首頁了。   
-附上 點燈坊 詳細的設定步驟。   
+附上 點燈坊 詳細的設定步驟。
+  
 ![點燈坊:如何重建由gitHub下載的Laravel專案](http://oomusou.io/laravel/laravel-clone-from-github/)
 
+以上是最基礎的用法，實際上應該要分開建置。
 
